@@ -2,22 +2,43 @@
   display: flex;
   justify-content: space-between;
   border-radius: 5px;
-  background: #222;
-  padding: 14px 20px;
+  background: #eaeaea;
+    padding: 14px 20px;
   margin-bottom: 0.938rem;
   width: 60rem;
 }
 
 .hours-table>li {
-  color: #e4d76d;
+  color: #222;
   font-size: 1rem;
   font-weight: 500;
   margin-right: 1.875rem;
+  font-weight: 600;
 }
 
 #table-sex-hours {
   margin-right: 8rem;
 }
+
+#kids-and-teens-hours {
+  color: #9C27B0;
+}
+
+#kids-hours {
+  color: #008eff;
+}
+
+#teens-hours {
+  color: #009688;
+}
+
+#indispo-hours {
+  color: #afafaf;
+  letter-spacing: 1px;
+}
+
+
+
 
 @media(min-width: 1024px) {
   .hours-table {

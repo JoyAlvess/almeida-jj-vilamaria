@@ -65,8 +65,29 @@ function App() {
         <Cta />
         <section className="hours-table-section">
           <span className="titulo-section">Grade de horários</span>
+
           <div className="content-table">
-            <Row />
+            <div>
+            <div className="tag-container-info-table-purple">
+                <span className="tag-info-table" id="tag-info-color-purple"></span>
+                <span className="tag-label-info-table">Aula Kids e Teens</span>
+              </div>
+              <div className="tag-container-info-table-blue">
+                <span className="tag-info-table" id="tag-info-color-blue"></span>
+                <span className="tag-label-info-table">Aula Kids</span>
+              </div>
+              <div className="tag-container-info-table-green">
+                <span className="tag-info-table" id="tag-info-color-green"></span>
+                <span className="tag-label-info-table">Aula Teens</span>
+              </div>
+              <div className="tag-container-info-table-yellow">
+                <span className="tag-info-table" id="tag-info-color-yellow"></span>
+                <span className="tag-label-info-table">Aula Adulto</span>
+              </div>
+            </div>
+            <div className="content-table-hours">
+              <Row />
+            </div>
           </div>
         </section>
         <ButtonFloat />

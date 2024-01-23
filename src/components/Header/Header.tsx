@@ -12,11 +12,14 @@ export const Header = () => {
   };
 
   return (
-    <header className={`header ${openMenu && "header-menu-open"}`} id="containe-header">
+    <header
+      className={`header ${openMenu && "header-menu-open"}`}
+      id="containe-header"
+    >
       <div
         className={`container-mobile ${
           openMenu && "container-mobile-menu-open"
-        }`}
+        } ${openMenu && "container-mobile-background"}`}
       >
         <div className="logo-mobile">
           <img src={Logo} alt="Logo Almeida JJ" />

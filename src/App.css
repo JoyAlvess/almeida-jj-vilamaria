@@ -40,7 +40,7 @@ body {
 }
 
 .button:hover {
-  filter: grayscale( 50% );
+  filter: grayscale(50%);
 }
 
 .planos-section {
@@ -55,4 +55,67 @@ body {
   .section-aboutus {
     display: flex;
   }
+}
+
+.content-table-hours {
+  margin-top: 6rem;
+}
+
+.tag-info-table {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.tag-container-info-table-purple {
+  position: relative;
+  left: 0;
+  bottom: 54px;
+}
+
+#tag-info-color-purple {
+  background: #9C27B0;
+}
+
+.tag-container-info-table-blue {
+  position: relative;
+  left: 186px;
+  top: -54px;
+}
+
+
+#tag-info-color-blue {
+  background: #008eff;
+}
+
+.tag-container-info-table-green {
+  position: relative;
+  left: 308px;
+  bottom: 54px;
+}
+
+#tag-info-color-green {
+  background: #009688;
+}
+
+.tag-container-info-table-yellow {
+  position: relative;
+  left: 442px;
+  bottom: 54px;
+}
+
+#tag-info-color-yellow {
+  background: #222;
+}
+
+
+
+.tag-label-info-table {
+  position: absolute;
+  left: 31px;
+  bottom: top;
+  top: 4px;
+  color: #000;
+  font-weight: 500;
 }
