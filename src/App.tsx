@@ -8,16 +8,15 @@ import { AboutUs } from "./components/AboutUs";
 import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
 import { CardInfo } from "./components/CardInfo";
-import { Card } from "./components/Card";
 import { Cta } from "./components/Cta";
 import { Row } from "./components/Row";
 import { Footer } from "./components/Footer";
 import { Carousel } from "./components/Carousel";
+import { ButtonFloat } from "./components/ButtonFloat";
 
 import imgCardInfoM from "./assets/bannerMulheres.jpg";
 import imgCardInfoDesk from "./assets/bannerMulheresDesk.jpg";
 import imgCardInfoChildrenDesk from "./assets/bannerCriancasDesk.jpg";
-
 
 import imgCardInfoF from "./assets/bannerCriancas.jpg";
 
@@ -70,6 +69,7 @@ function App() {
             <Row />
           </div>
         </section>
+        <ButtonFloat />
       </body>
       <Footer />
     </>

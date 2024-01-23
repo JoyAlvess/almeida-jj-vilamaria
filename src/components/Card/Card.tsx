@@ -12,9 +12,9 @@ interface infoCard {
 export const Card = ({ category, usefulTime, time, value }: infoCard) => {
   return (
     <div className="planos-card">
-      <div className="planos-card-tag">
+      {/* <div className="planos-card-tag">
         <span>Plano Recomendado</span>
-      </div>
+      </div> */}
 
       <div className="planos-card-content-title">
         <span className="planos-card-title">JIU JITSU</span>

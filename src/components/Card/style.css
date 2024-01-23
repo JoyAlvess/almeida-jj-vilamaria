@@ -39,6 +39,7 @@
   flex-direction: column;
   align-items: center;
   margin: 1.563rem 0;
+  padding-top: 1rem;
 }
 
 .planos-card-title {
