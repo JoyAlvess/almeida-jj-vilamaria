@@ -16,6 +16,8 @@ import { Carousel } from "./components/Carousel";
 
 import imgCardInfoM from "./assets/bannerMulheres.jpg";
 import imgCardInfoDesk from "./assets/bannerMulheresDesk.jpg";
+import imgCardInfoChildrenDesk from "./assets/bannerCriancasDesk.jpg";
+
 
 import imgCardInfoF from "./assets/bannerCriancas.jpg";
 
@@ -49,7 +51,7 @@ function App() {
           />
           <CardInfo
             img={imgCardInfoF}
-            imgDesk={imgCardInfoDesk}
+            imgDesk={imgCardInfoChildrenDesk}
             title={"Jiu-Jitsu Infantil"}
             subtitle={"Motivos para seu filho aprender!"}
             topics={topcisBannerInfantil}

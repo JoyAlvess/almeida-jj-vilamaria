@@ -1,7 +1,8 @@
 import "../../App.css";
 import "./style.css";
 import BannerM from '../../assets/bannerPrincipal.jpg';
-import BannerG from '../../assets/bannerPrincipalDesk.jpg';
+import BannerG from '../../assets/banner.jpg';
+
 
 
 export const Banner = () => {
