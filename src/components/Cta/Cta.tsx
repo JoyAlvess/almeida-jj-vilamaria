@@ -11,10 +11,16 @@ export const Cta = () => {
           <span>Sua transformação começa agora! </span>
         </div>
         <div className="cta-button">
-          <button className="button">Fale conosco</button>
+          <a
+            href="https://wa.me/55011994779150/? text=Olá, tudo bem? Seja Bem-vindo ao Almeida JJ - Unidade Vila Maria Vamos marca sua aula experimental?🥋👊"
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
+            Fale conosco
+          </a>
         </div>
       </div>
     </section>
   );
 };
-

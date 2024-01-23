@@ -55,7 +55,7 @@ function App() {
             topics={topcisBannerInfantil}
           />
         </div>
-        <section className="planos-section">
+        <section className="planos-section" id="plans">
           <span className="titulo-section">Planos</span>
           <div className="planos-card-content">
             <Carousel />

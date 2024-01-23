@@ -3,13 +3,13 @@ import "../../App.css";
 import "./style.css";
 
 interface infoCard {
-  category: string,
-  usefulTime: string,
-  time: string,
-  value: string,
+  category: string;
+  usefulTime: string;
+  time: string;
+  value: string;
 }
 
-export const Card = ({category, usefulTime, time, value}: infoCard) => {
+export const Card = ({ category, usefulTime, time, value }: infoCard) => {
   return (
     <div className="planos-card">
       <div className="planos-card-tag">
@@ -38,7 +38,14 @@ export const Card = ({category, usefulTime, time, value}: infoCard) => {
       </div>
 
       <div className="planos-card-button">
-        <button className="button">Quero esse!</button>
+        <a
+          href="https://wa.me/55011994779150/? text=Olá, tudo bem? Seja Bem-vindo ao Almeida JJ - Unidade Vila Maria Vamos marca sua aula experimental?🥋👊"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Quero esse!
+        </a>
       </div>
     </div>
   );

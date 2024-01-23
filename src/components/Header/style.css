@@ -9,20 +9,103 @@
   width: 3rem;
 }
 
-.menu-mobile {
-  width: 1.563rem;
-  height: 1.563rem;
+.container-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: unset;
+  padding: 10px 0 0 0;
 }
 
 .menu-desktop {
   display: none;
 }
 
-@media(min-width: 767px) {
+.menu-desktop>ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+
+.menu-desktop>ul li a:hover {
+  color: #b1b1b1;
+  transition: 200ms linear;
+  cursor: pointer;
+}
+
+.menu-mobile {
+  width: 1.563rem;
+  height: 1.563rem;
+  margin: 10px;
+}
+
+.button-menu-mobile {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.itens-menu-mobile {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.itens-menu-mobile li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin: 0;
+    height: 500vh;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0;
+    align-items: baseline;
+  }
+
+  .container-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+    padding: 10px 5px 0 0;
+    width: 100vw;
+    height: 98px;
+  }
+
+  .header-menu-open {
+    background: rgba(46, 42, 10, 0.65);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+  }
+
+  .container-mobile-menu-open {
+    background: linear-gradient(180deg, #F7E02C 0%, #0C0B0C 100%);
+    box-shadow: 0px 2px 8px 0px #040304;
+
+  }
+}
+
+@media(min-width: 768px) {
   .header {
     padding: 0 3rem;
   }
-  
+
   .menu-mobile {
     display: none;
   }
@@ -35,21 +118,13 @@
     display: flex;
     justify-content: space-between;
   }
-
-  .menu-desktop>ul li a {
-    text-decoration: none;
-    color: #222;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0 1rem;
-  }
 }
 
-@media(min-width: 767px) {
+/* @media(min-width: 767px) {
   .header {
     padding: 0 4rem;
   }
-}
+} */
 
 @media(min-width: 1024px) {
   .header {

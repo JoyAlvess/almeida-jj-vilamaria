@@ -29,3 +29,11 @@
     margin: 1.25rem 0 6.75rem;
   }
 }
+
+@media(max-width: 767px) {
+  .banner-principal {
+    margin: 5.25rem 0 2.75rem;
+  }
+
+
+}

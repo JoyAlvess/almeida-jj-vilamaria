@@ -3,10 +3,9 @@ import "./style.css";
 // import ImgSobreNos from "../../assets/aboutUs.jpg";
 import ImgSobrenos from "../../assets/sobreNos.jpeg";
 
-
 export const AboutUs = () => {
   return (
-    <section className="sobrenos-section">
+    <section className="sobrenos-section" id="aboutus">
       <div className="sobrenos-content">
         <div className="sobrenos-wrapper">
           <div>
@@ -23,7 +22,14 @@ export const AboutUs = () => {
             </p>
           </div>
           <div>
-            <button className="button">Venha fazer parte</button>
+            <a
+              href="https://wa.me/55011994779150/? text=Olá, tudo bem? Seja Bem-vindo ao Almeida JJ - Unidade Vila Maria Vamos marca sua aula experimental?🥋👊"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
+              Venha fazer parte
+            </a>
           </div>
         </div>
         <div className="img-aboutus">
