@@ -1,0 +1,31 @@
+.banner-principal {
+  margin: 1.25rem 0 2.75rem;
+}
+
+.banner-principal img {
+  width: 100%;
+}
+
+#img-mobile {
+  display: block;
+}
+
+#img-desktop {
+  display: none;
+}
+
+@media(min-width: 767px) {
+  #img-mobile {
+    display: none;
+  }
+
+  #img-desktop {
+    display: block;
+  }
+}
+
+@media(min-width: 1024px) {
+  .banner-principal {
+    margin: 1.25rem 0 6.75rem;
+  }
+}

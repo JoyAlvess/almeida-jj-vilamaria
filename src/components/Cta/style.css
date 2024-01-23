@@ -1,0 +1,58 @@
+.cta-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta-info {
+  position: relative;
+  top: 2.188rem;
+  margin-left: 0.625rem;
+}
+
+.cta-info>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-info span {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.563rem;
+}
+
+.cta-button>button {
+  margin-top: 1.563rem;
+}
+
+@media(max-width: 767px) {
+  .cta-section {
+    background-image: url("../../assets/bannerCta.jpg");
+    height: 175px;
+  }
+
+  .cta-info {
+    margin-left: 1.625rem;
+  }
+}
+
+@media(min-width: 768px) {
+  .cta-section {
+    background-image: url("../../assets/bannerCtaDesktop.jpg");
+    height: 293px;
+  }
+
+  .cta-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3.5rem;
+    top: 3.188rem;
+    margin-left: 0;
+  }
+
+  .cta-info span {
+    font-size: 1.6rem;
+    line-height: 2.563rem;
+  }
+}

@@ -1,0 +1,26 @@
+.hours-table {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background: #222;
+  padding: 14px 20px;
+  margin-bottom: 0.938rem;
+  width: 60rem;
+}
+
+.hours-table>li {
+  color: #e4d76d;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 1.875rem;
+}
+
+#table-sex-hours {
+  margin-right: 8rem;
+}
+
+@media(min-width: 1024px) {
+  .hours-table {
+    width: auto;
+  }
+}
