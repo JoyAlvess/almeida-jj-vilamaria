@@ -14,60 +14,60 @@ export const Row = () => {
         <li style={{marginRight: '64px'}}>Sab</li>
       </ul>
       <ul className="hours-table">
-        <li>06h - 07h</li>
-        <li>06h - 07h</li>
-        <li>06h - 07h</li>
-        <li>06h - 07h</li>
-        <li>06h - 07h</li>
-        <li>10h - 11h</li>
+        <li>06:00 - 07:00</li>
+        <li>06:00 - 07:00</li>
+        <li>06:00 - 07:00</li>
+        <li>06:00 - 07:00</li>
+        <li>06:00 - 07:00</li>
+        <li>10:00 - 11:00</li>
       </ul>
       <ul className="hours-table">
-        <li>07h - 08h</li>
-        <li>07h - 08h</li>
-        <li>07h - 08h</li>
-        <li>07h - 08h</li>
-        <li>07h - 08h</li>
-        <li>--h - --h</li>
+        <li>07:00 - 08:00</li>
+        <li>07:00 - 08:00</li>
+        <li>07:00 - 08:00</li>
+        <li>07:00 - 08:00</li>
+        <li>07:00 - 08:00</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
       <ul className="hours-table">
-        <li>09h - 09:50</li>
-        <li>--h - --h</li>
-        <li>09h - 09:50</li>
-        <li>--h - --h</li>
-        <li>09h - 09:50</li>
-        <li>--h - --h</li>
+        <li>09:00 - 09:50</li>
+        <li>xx:xx - xx:xx</li>
+        <li>09:00 - 09:50</li>
+        <li>xx:xx - xx:xx</li>
+        <li>09:00 - 09:50</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
       <ul className="hours-table">
-        <li>17h - 18h</li>
-        <li>17h - 18h</li>
-        <li>17h - 18h</li>
-        <li>17h - 18h</li>
-        <li>17h - 18h</li>
-        <li>--h - --h</li>
+        <li>17:00 - 18:00</li>
+        <li>17:00 - 18:00</li>
+        <li>17:00 - 18:00</li>
+        <li>17:00 - 18:00</li>
+        <li>17:00 - 18:00</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
       <ul className="hours-table">
-        <li>18h - 19h</li>
-        <li>18h - 19h</li>
-        <li>18h - 19h</li>
-        <li>18h - 19h</li>
-        <li>18h - 19h</li>
-        <li>--h - --h</li>
+        <li>18:30 - 19:20</li>
+        <li>18:30 - 19:20</li>
+        <li>18:30 - 19:20</li>
+        <li>18:30 - 19:20</li>
+        <li>18:30 - 19:20</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
       <ul className="hours-table">
-        <li>19h - 20h</li>
-        <li>19h - 20h</li>
-        <li>19h - 20h</li>
-        <li>19h - 20h</li>
-        <li>19h - 20h</li>
-        <li>--h - --h</li>
+        <li>19:30 - 20:45</li>
+        <li>19:30 - 20:45</li>
+        <li>19:30 - 20:45</li>
+        <li>19:30 - 20:45</li>
+        <li>19:30 - 20:45</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
       <ul className="hours-table">
-        <li>21h - 22h</li>
-        <li>21h - 22h</li>
-        <li>21h - 22h</li>
-        <li>21h - 22h</li>
-        <li>--h - --h</li>
-        <li>--h - --h</li>
+        <li>21:00 - 22:00</li>
+        <li>21:00 - 22:00</li>
+        <li>21:00 - 22:00</li>
+        <li>21:00 - 22:00</li>
+        <li>xx:xx - xx:xx</li>
+        <li>xx:xx - xx:xx</li>
       </ul>
     </>
   );
