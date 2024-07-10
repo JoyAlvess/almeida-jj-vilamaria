@@ -1,7 +1,9 @@
 # Protótipo Inicial do Projeto: 
 https://www.figma.com/proto/ENKZ1Pi5niNTwgJVT16pyG/Almeida-JJ-Desktop-And-Mobile?type=design&node-id=11-14&t=g33sjZpFuqIxObxZ-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=11%3A14&show-proto-sidebar=1
 
-Obs: O cliente mudou alguns pontos por isso a cor talvez de algum item possa está direfente!
+Obs: O cliente mudou alguns pontos por isso a cor talvez de algum item possa está diferente!
+
+link do site: https://almeidajj-vilamaria-klausmeine.netlify.app/
 
 # Getting Started with Create React App
 
